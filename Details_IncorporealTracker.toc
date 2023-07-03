@@ -1,0 +1,9 @@
+## Interface: 100100
+## Title: Details!: Incorporeal Tracker (plugin)
+## Notes: Show how many Incorporeal Beings players have used cc on
+## Dependencies: Details
+## Author: Cenarii
+## Version: v10.1.0.0
+## SavedVariablesPerCharacter: ExplosiveOrbsLog
+
+Core.lua
