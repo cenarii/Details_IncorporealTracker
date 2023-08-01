@@ -32,7 +32,9 @@ local CustomDisplay = {
                 if(character.interrupt and character.interrupt_targets['Incorporeal Being']) then
                     cc_done = cc_done + floor (character.interrupt_targets['Incorporeal Being'])
                 end
-                instance_container:AddValue (character, cc_done)
+                if(cc_done > 0) then
+                    instance_container:AddValue (character, cc_done)
+                end
                 total = total + cc_done
                 if (cc_done > top) then
                     top = cc_done
